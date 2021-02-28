@@ -1,0 +1,516 @@
+fileFormatVersion: 2
+guid: 385aa7564b166414ebad0993a961fcf7
+timeCreated: 1426681713
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: joint21
+    100002: joint22
+    100004: joint_end
+    100006: joint_Hand_L01
+    100008: joint_Hand_L02
+    100010: joint_Hand_L03
+    100012: joint_Hand_L04
+    100014: joint_Hand_L05
+    100016: joint_Hand_R01
+    100018: joint_Hand_R02
+    100020: joint_Hand_R03
+    100022: joint_Hand_R04
+    100024: joint_Hand_R05
+    100026: joint_Head
+    100028: joint_Leg_L01
+    100030: joint_Leg_L02
+    100032: joint_Leg_L03
+    100034: joint_Leg_L04
+    100036: joint_Leg_R01
+    100038: joint_Leg_R02
+    100040: joint_Leg_R03
+    100042: joint_Leg_R04
+    100044: joint_Spine_01
+    100046: RobotBody_Base3
+    100048: //RootNode
+    100050: transform1
+    400000: joint21
+    400002: joint22
+    400004: joint_end
+    400006: joint_Hand_L01
+    400008: joint_Hand_L02
+    400010: joint_Hand_L03
+    400012: joint_Hand_L04
+    400014: joint_Hand_L05
+    400016: joint_Hand_R01
+    400018: joint_Hand_R02
+    400020: joint_Hand_R03
+    400022: joint_Hand_R04
+    400024: joint_Hand_R05
+    400026: joint_Head
+    400028: joint_Leg_L01
+    400030: joint_Leg_L02
+    400032: joint_Leg_L03
+    400034: joint_Leg_L04
+    400036: joint_Leg_R01
+    400038: joint_Leg_R02
+    400040: joint_Leg_R03
+    400042: joint_Leg_R04
+    400044: joint_Spine_01
+    400046: RobotBody_Base3
+    400048: //RootNode
+    400050: transform1
+    4300000: RobotBody_Base3
+    7400000: BotWalk
+    7400002: BotFire
+    7400004: BotHit
+    7400006: BotDie
+    7400008: BotHit2
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: RobotBody_Base3
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: BotWalk
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 79
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint_Spine_01
+        weight: 1
+      - path: joint_Spine_01/joint_Hand_L01
+        weight: 1
+      - path: joint_Spine_01/joint_Hand_L01/joint_Hand_L02
+        weight: 1
+      - path: joint_Spine_01/joint_Hand_L01/joint_Hand_L02/joint_Hand_L03
+        weight: 1
+      - path: joint_Spine_01/joint_Hand_L01/joint_Hand_L02/joint_Hand_L03/joint21
+        weight: 1
+      - path: joint_Spine_01/joint_Hand_L01/joint_Hand_L02/joint_Hand_L03/joint_Hand_L04
+        weight: 1
+      - path: joint_Spine_01/joint_Hand_L01/joint_Hand_L02/joint_Hand_L03/joint_Hand_L04/joint_Hand_L05
+        weight: 1
+      - path: joint_Spine_01/joint_Hand_R01
+        weight: 1
+      - path: joint_Spine_01/joint_Hand_R01/joint_Hand_R02
+        weight: 1
+      - path: joint_Spine_01/joint_Hand_R01/joint_Hand_R02/joint_Hand_R03
+        weight: 1
+      - path: joint_Spine_01/joint_Hand_R01/joint_Hand_R02/joint_Hand_R03/joint22
+        weight: 1
+      - path: joint_Spine_01/joint_Hand_R01/joint_Hand_R02/joint_Hand_R03/joint_Hand_R04
+        weight: 1
+      - path: joint_Spine_01/joint_Hand_R01/joint_Hand_R02/joint_Hand_R03/joint_Hand_R04/joint_Hand_R05
+        weight: 1
+      - path: joint_Spine_01/joint_Head
+        weight: 1
+      - path: joint_Spine_01/joint_Head/joint_end
+        weight: 1
+      - path: joint_Spine_01/joint_Leg_L01
+        weight: 1
+      - path: joint_Spine_01/joint_Leg_L01/joint_Leg_L02
+        weight: 1
+      - path: joint_Spine_01/joint_Leg_L01/joint_Leg_L02/joint_Leg_L03
+        weight: 1
+      - path: joint_Spine_01/joint_Leg_L01/joint_Leg_L02/joint_Leg_L03/joint_Leg_L04
+        weight: 1
+      - path: joint_Spine_01/transform1
+        weight: 1
+      - path: joint_Spine_01/transform1/joint_Leg_R01
+        weight: 1
+      - path: joint_Spine_01/transform1/joint_Leg_R01/joint_Leg_R02
+        weight: 1
+      - path: joint_Spine_01/transform1/joint_Leg_R01/joint_Leg_R02/joint_Leg_R03
+        weight: 1
+      - path: joint_Spine_01/transform1/joint_Leg_R01/joint_Leg_R02/joint_Leg_R03/joint_Leg_R04
+        weight: 1
+      - path: RobotBody_Base3
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: BotFire
+      takeName: Take 001
+      firstFrame: 80
+      lastFrame: 154
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint_Spine_01
+        weight: 1
+      - path: joint_Spine_01/joint_Hand_L01
+        weight: 1
+      - path: joint_Spine_01/joint_Hand_L01/joint_Hand_L02
+        weight: 1
+      - path: joint_Spine_01/joint_Hand_L01/joint_Hand_L02/joint_Hand_L03
+        weight: 1
+      - path: joint_Spine_01/joint_Hand_L01/joint_Hand_L02/joint_Hand_L03/joint21
+        weight: 1
+      - path: joint_Spine_01/joint_Hand_L01/joint_Hand_L02/joint_Hand_L03/joint_Hand_L04
+        weight: 1
+      - path: joint_Spine_01/joint_Hand_L01/joint_Hand_L02/joint_Hand_L03/joint_Hand_L04/joint_Hand_L05
+        weight: 1
+      - path: joint_Spine_01/joint_Hand_R01
+        weight: 1
+      - path: joint_Spine_01/joint_Hand_R01/joint_Hand_R02
+        weight: 1
+      - path: joint_Spine_01/joint_Hand_R01/joint_Hand_R02/joint_Hand_R03
+        weight: 1
+      - path: joint_Spine_01/joint_Hand_R01/joint_Hand_R02/joint_Hand_R03/joint22
+        weight: 1
+      - path: joint_Spine_01/joint_Hand_R01/joint_Hand_R02/joint_Hand_R03/joint_Hand_R04
+        weight: 1
+      - path: joint_Spine_01/joint_Hand_R01/joint_Hand_R02/joint_Hand_R03/joint_Hand_R04/joint_Hand_R05
+        weight: 1
+      - path: joint_Spine_01/joint_Head
+        weight: 1
+      - path: joint_Spine_01/joint_Head/joint_end
+        weight: 1
+      - path: joint_Spine_01/joint_Leg_L01
+        weight: 1
+      - path: joint_Spine_01/joint_Leg_L01/joint_Leg_L02
+        weight: 1
+      - path: joint_Spine_01/joint_Leg_L01/joint_Leg_L02/joint_Leg_L03
+        weight: 1
+      - path: joint_Spine_01/joint_Leg_L01/joint_Leg_L02/joint_Leg_L03/joint_Leg_L04
+        weight: 1
+      - path: joint_Spine_01/transform1
+        weight: 1
+      - path: joint_Spine_01/transform1/joint_Leg_R01
+        weight: 1
+      - path: joint_Spine_01/transform1/joint_Leg_R01/joint_Leg_R02
+        weight: 1
+      - path: joint_Spine_01/transform1/joint_Leg_R01/joint_Leg_R02/joint_Leg_R03
+        weight: 1
+      - path: joint_Spine_01/transform1/joint_Leg_R01/joint_Leg_R02/joint_Leg_R03/joint_Leg_R04
+        weight: 1
+      - path: RobotBody_Base3
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: BotHit
+      takeName: Take 001
+      firstFrame: 155
+      lastFrame: 197
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint_Spine_01
+        weight: 1
+      - path: joint_Spine_01/joint_Hand_L01
+        weight: 1
+      - path: joint_Spine_01/joint_Hand_L01/joint_Hand_L02
+        weight: 1
+      - path: joint_Spine_01/joint_Hand_L01/joint_Hand_L02/joint_Hand_L03
+        weight: 1
+      - path: joint_Spine_01/joint_Hand_L01/joint_Hand_L02/joint_Hand_L03/joint21
+        weight: 1
+      - path: joint_Spine_01/joint_Hand_L01/joint_Hand_L02/joint_Hand_L03/joint_Hand_L04
+        weight: 1
+      - path: joint_Spine_01/joint_Hand_L01/joint_Hand_L02/joint_Hand_L03/joint_Hand_L04/joint_Hand_L05
+        weight: 1
+      - path: joint_Spine_01/joint_Hand_R01
+        weight: 1
+      - path: joint_Spine_01/joint_Hand_R01/joint_Hand_R02
+        weight: 1
+      - path: joint_Spine_01/joint_Hand_R01/joint_Hand_R02/joint_Hand_R03
+        weight: 1
+      - path: joint_Spine_01/joint_Hand_R01/joint_Hand_R02/joint_Hand_R03/joint22
+        weight: 1
+      - path: joint_Spine_01/joint_Hand_R01/joint_Hand_R02/joint_Hand_R03/joint_Hand_R04
+        weight: 1
+      - path: joint_Spine_01/joint_Hand_R01/joint_Hand_R02/joint_Hand_R03/joint_Hand_R04/joint_Hand_R05
+        weight: 1
+      - path: joint_Spine_01/joint_Head
+        weight: 1
+      - path: joint_Spine_01/joint_Head/joint_end
+        weight: 1
+      - path: joint_Spine_01/joint_Leg_L01
+        weight: 1
+      - path: joint_Spine_01/joint_Leg_L01/joint_Leg_L02
+        weight: 1
+      - path: joint_Spine_01/joint_Leg_L01/joint_Leg_L02/joint_Leg_L03
+        weight: 1
+      - path: joint_Spine_01/joint_Leg_L01/joint_Leg_L02/joint_Leg_L03/joint_Leg_L04
+        weight: 1
+      - path: joint_Spine_01/transform1
+        weight: 1
+      - path: joint_Spine_01/transform1/joint_Leg_R01
+        weight: 1
+      - path: joint_Spine_01/transform1/joint_Leg_R01/joint_Leg_R02
+        weight: 1
+      - path: joint_Spine_01/transform1/joint_Leg_R01/joint_Leg_R02/joint_Leg_R03
+        weight: 1
+      - path: joint_Spine_01/transform1/joint_Leg_R01/joint_Leg_R02/joint_Leg_R03/joint_Leg_R04
+        weight: 1
+      - path: RobotBody_Base3
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: BotDie
+      takeName: Take 001
+      firstFrame: 198
+      lastFrame: 296
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint_Spine_01
+        weight: 1
+      - path: joint_Spine_01/joint_Hand_L01
+        weight: 1
+      - path: joint_Spine_01/joint_Hand_L01/joint_Hand_L02
+        weight: 1
+      - path: joint_Spine_01/joint_Hand_L01/joint_Hand_L02/joint_Hand_L03
+        weight: 1
+      - path: joint_Spine_01/joint_Hand_L01/joint_Hand_L02/joint_Hand_L03/joint21
+        weight: 1
+      - path: joint_Spine_01/joint_Hand_L01/joint_Hand_L02/joint_Hand_L03/joint_Hand_L04
+        weight: 1
+      - path: joint_Spine_01/joint_Hand_L01/joint_Hand_L02/joint_Hand_L03/joint_Hand_L04/joint_Hand_L05
+        weight: 1
+      - path: joint_Spine_01/joint_Hand_R01
+        weight: 1
+      - path: joint_Spine_01/joint_Hand_R01/joint_Hand_R02
+        weight: 1
+      - path: joint_Spine_01/joint_Hand_R01/joint_Hand_R02/joint_Hand_R03
+        weight: 1
+      - path: joint_Spine_01/joint_Hand_R01/joint_Hand_R02/joint_Hand_R03/joint22
+        weight: 1
+      - path: joint_Spine_01/joint_Hand_R01/joint_Hand_R02/joint_Hand_R03/joint_Hand_R04
+        weight: 1
+      - path: joint_Spine_01/joint_Hand_R01/joint_Hand_R02/joint_Hand_R03/joint_Hand_R04/joint_Hand_R05
+        weight: 1
+      - path: joint_Spine_01/joint_Head
+        weight: 1
+      - path: joint_Spine_01/joint_Head/joint_end
+        weight: 1
+      - path: joint_Spine_01/joint_Leg_L01
+        weight: 1
+      - path: joint_Spine_01/joint_Leg_L01/joint_Leg_L02
+        weight: 1
+      - path: joint_Spine_01/joint_Leg_L01/joint_Leg_L02/joint_Leg_L03
+        weight: 1
+      - path: joint_Spine_01/joint_Leg_L01/joint_Leg_L02/joint_Leg_L03/joint_Leg_L04
+        weight: 1
+      - path: joint_Spine_01/transform1
+        weight: 1
+      - path: joint_Spine_01/transform1/joint_Leg_R01
+        weight: 1
+      - path: joint_Spine_01/transform1/joint_Leg_R01/joint_Leg_R02
+        weight: 1
+      - path: joint_Spine_01/transform1/joint_Leg_R01/joint_Leg_R02/joint_Leg_R03
+        weight: 1
+      - path: joint_Spine_01/transform1/joint_Leg_R01/joint_Leg_R02/joint_Leg_R03/joint_Leg_R04
+        weight: 1
+      - path: RobotBody_Base3
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: BotHit2
+      takeName: Take 001
+      firstFrame: 297
+      lastFrame: 340
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint_Spine_01
+        weight: 1
+      - path: joint_Spine_01/joint_Hand_L01
+        weight: 1
+      - path: joint_Spine_01/joint_Hand_L01/joint_Hand_L02
+        weight: 1
+      - path: joint_Spine_01/joint_Hand_L01/joint_Hand_L02/joint_Hand_L03
+        weight: 1
+      - path: joint_Spine_01/joint_Hand_L01/joint_Hand_L02/joint_Hand_L03/joint21
+        weight: 1
+      - path: joint_Spine_01/joint_Hand_L01/joint_Hand_L02/joint_Hand_L03/joint_Hand_L04
+        weight: 1
+      - path: joint_Spine_01/joint_Hand_L01/joint_Hand_L02/joint_Hand_L03/joint_Hand_L04/joint_Hand_L05
+        weight: 1
+      - path: joint_Spine_01/joint_Hand_R01
+        weight: 1
+      - path: joint_Spine_01/joint_Hand_R01/joint_Hand_R02
+        weight: 1
+      - path: joint_Spine_01/joint_Hand_R01/joint_Hand_R02/joint_Hand_R03
+        weight: 1
+      - path: joint_Spine_01/joint_Hand_R01/joint_Hand_R02/joint_Hand_R03/joint22
+        weight: 1
+      - path: joint_Spine_01/joint_Hand_R01/joint_Hand_R02/joint_Hand_R03/joint_Hand_R04
+        weight: 1
+      - path: joint_Spine_01/joint_Hand_R01/joint_Hand_R02/joint_Hand_R03/joint_Hand_R04/joint_Hand_R05
+        weight: 1
+      - path: joint_Spine_01/joint_Head
+        weight: 1
+      - path: joint_Spine_01/joint_Head/joint_end
+        weight: 1
+      - path: joint_Spine_01/joint_Leg_L01
+        weight: 1
+      - path: joint_Spine_01/joint_Leg_L01/joint_Leg_L02
+        weight: 1
+      - path: joint_Spine_01/joint_Leg_L01/joint_Leg_L02/joint_Leg_L03
+        weight: 1
+      - path: joint_Spine_01/joint_Leg_L01/joint_Leg_L02/joint_Leg_L03/joint_Leg_L04
+        weight: 1
+      - path: joint_Spine_01/transform1
+        weight: 1
+      - path: joint_Spine_01/transform1/joint_Leg_R01
+        weight: 1
+      - path: joint_Spine_01/transform1/joint_Leg_R01/joint_Leg_R02
+        weight: 1
+      - path: joint_Spine_01/transform1/joint_Leg_R01/joint_Leg_R02/joint_Leg_R03
+        weight: 1
+      - path: joint_Spine_01/transform1/joint_Leg_R01/joint_Leg_R02/joint_Leg_R03/joint_Leg_R04
+        weight: 1
+      - path: RobotBody_Base3
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 3
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

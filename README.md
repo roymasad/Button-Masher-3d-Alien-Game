@@ -3,7 +3,7 @@ Tapping button masher demo game, 50s Alien Retro, Unity 3D
 
 Code: Roy Massaad
 
-Design Aart : Nareg Kalenderian, Helen Sawma
+Design Art : Nareg Kalenderian, Helen Sawma
 
 Date: 2016
 

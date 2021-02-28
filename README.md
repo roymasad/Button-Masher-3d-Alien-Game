@@ -40,4 +40,7 @@ The C# code isnt documented but its straightforward enough to understand without
 
 The alien bots themselves were modelled rigged and skinned and animated by us to give the students a reference template also. 
 
+This was original created on Unity 3d 5.6, but i updated it and tested on Unity 2020 before uploading to github
+
+
 

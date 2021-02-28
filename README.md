@@ -33,9 +33,9 @@ If it it a wall it plays a particle effect, if it hit a bot the bot will play a 
 
 The bots have life and speed value, they can be tweaked, by default they can take a few hits before de-spawning.
 
-The alien bots come from a couple of predefined spawners that create them placed around the sceen from all angles towards the play, when spawned the move in the direction of the player.
+The alien bots come from a couple of predefined spawners that create them placed around the sceen from all angles towards the play, when spawned they move in the direction of the player.
 
-If the come close enough to the player without being shot, they play the open fire animation.
+If they come close enough to the player without being shot, they play the open fire animation.
 
 The player doesnt lose if hit, we didnt program that part for the workshop demo.
 
@@ -43,7 +43,7 @@ The C# code isnt documented but its straightforward enough to understand without
 
 The alien bots themselves were modelled rigged and skinned and animated by us to give the students a reference template also. 
 
-This was original created on Unity 3d 5.6, but i updated it and tested on Unity 2020 before uploading to github
+This was originally created in Unity 3d 5.6, but i updated it and tested on Unity 2020 before uploading to github
 
 
 

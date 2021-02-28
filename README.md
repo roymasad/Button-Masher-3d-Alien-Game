@@ -2,8 +2,11 @@
 Tapping button masher demo game, 50s Alien Retro, Unity 3D
 
 Code: Roy Massaad
+
 Design Aart : Nareg Kalenderian, Helen Sawma
+
 Date: 2016
+
 License : GPL
 
 Code: Unity3d C# Scripts

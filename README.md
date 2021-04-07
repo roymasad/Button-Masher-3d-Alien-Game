@@ -7,7 +7,7 @@ Design Art : Nareg Kalenderian, Helen Sawma
 
 Date: 2015
 
-License : GPL
+License : GPL 2
 
 Code: Unity3d C# Scripts
 
